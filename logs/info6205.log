@@ -1,0 +1,653 @@
+2021-09-22 22:51:25 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-22 22:53:34 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-22 23:16:53 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-22 23:44:47 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-22 23:44:47 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-23 00:02:42 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-23 00:04:24 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-23 00:04:37 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-24 09:54:01 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 09:54:01 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 10:00:57 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 10:00:57 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 10:01:09 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 10:01:09 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 10:10:36 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 10:10:36 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:00:56 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:00:56 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:00:56 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 20 runs
+2021-09-24 12:00:56 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 20 runs
+2021-09-24 12:00:56 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 20 runs
+2021-09-24 12:00:56 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 20 runs
+2021-09-24 12:06:24 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:06:24 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:06:24 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 20 runs
+2021-09-24 12:06:24 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 20 runs
+2021-09-24 12:06:24 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 20 runs
+2021-09-24 12:06:24 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 20 runs
+2021-09-24 12:07:54 DEBUG LazyLoggerTest - Hello debug message
+2021-09-24 12:08:05 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:08:05 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:08:05 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 20 runs
+2021-09-24 12:08:05 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 20 runs
+2021-09-24 12:08:05 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 20 runs
+2021-09-24 12:08:05 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 20 runs
+2021-09-24 12:14:59 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:14:59 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:14:59 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 1,000 runs
+2021-09-24 12:14:59 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 1,000 runs
+2021-09-24 12:14:59 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 1,000 runs
+2021-09-24 12:14:59 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 1,000 runs
+2021-09-24 12:18:19 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:18:19 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:18:19 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 12:18:19 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 12:18:19 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 12:18:19 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 12:19:12 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:19:12 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:19:12 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 1,000 runs
+2021-09-24 12:19:12 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 1,000 runs
+2021-09-24 12:19:13 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 1,000 runs
+2021-09-24 12:19:13 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 1,000 runs
+2021-09-24 12:19:42 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 12:19:42 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 12:19:42 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 12:19:42 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 12:19:42 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 12:19:42 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:01:12 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:01:12 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:01:12 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 13:01:12 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:01:12 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 13:01:12 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 13:02:44 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:02:44 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:02:44 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 13:02:44 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:02:44 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 13:02:44 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 13:03:15 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:03:15 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:03:15 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5,000 runs
+2021-09-24 13:03:16 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5,000 runs
+2021-09-24 13:03:16 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5,000 runs
+2021-09-24 13:03:17 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5,000 runs
+2021-09-24 13:04:12 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:04:12 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:04:12 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 10,000 runs
+2021-09-24 13:04:14 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 10,000 runs
+2021-09-24 13:04:15 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 10,000 runs
+2021-09-24 13:04:16 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 10,000 runs
+2021-09-24 13:09:39 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:09:39 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:09:39 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 20 runs
+2021-09-24 13:09:39 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 20 runs
+2021-09-24 13:09:40 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 20 runs
+2021-09-24 13:09:40 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 20 runs
+2021-09-24 13:16:39 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 10 runs
+2021-09-24 13:16:40 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 10 runs
+2021-09-24 13:16:40 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 10 runs
+2021-09-24 13:16:40 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 10 runs
+2021-09-24 13:19:43 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 10 runs
+2021-09-24 13:19:43 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 10 runs
+2021-09-24 13:19:43 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 10 runs
+2021-09-24 13:19:44 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 10 runs
+2021-09-24 13:19:57 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 10 runs
+2021-09-24 13:19:57 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 10 runs
+2021-09-24 13:19:57 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 10 runs
+2021-09-24 13:19:58 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 10 runs
+2021-09-24 13:20:23 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 300 runs
+2021-09-24 13:20:23 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 300 runs
+2021-09-24 13:20:23 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 300 runs
+2021-09-24 13:20:24 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 300 runs
+2021-09-24 13:20:51 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 10,000 runs
+2021-09-24 13:20:52 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 10,000 runs
+2021-09-24 13:20:52 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 10,000 runs
+2021-09-24 13:20:53 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 10,000 runs
+2021-09-24 13:22:10 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 16000 with 10,000 runs
+2021-09-24 13:22:11 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 16000 with 10,000 runs
+2021-09-24 13:22:12 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 16000 with 10,000 runs
+2021-09-24 13:22:12 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 16000 with 10,000 runs
+2021-09-24 13:23:19 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 10000 with 1,000 runs
+2021-09-24 13:23:19 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 10000 with 1,000 runs
+2021-09-24 13:23:19 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 10000 with 1,000 runs
+2021-09-24 13:23:19 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 10000 with 1,000 runs
+2021-09-24 13:23:35 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 100000 with 1,000 runs
+2021-09-24 13:23:57 INFO  Benchmark_Timer - Begin run: Benchmarking random array with N = 10000 with 1,000 runs
+2021-09-24 13:23:57 INFO  Benchmark_Timer - Begin run: Benchmarking ordered array with N = 10000 with 1,000 runs
+2021-09-24 13:23:57 INFO  Benchmark_Timer - Begin run: Benchmarking partial array with N = 10000 with 1,000 runs
+2021-09-24 13:23:57 INFO  Benchmark_Timer - Begin run: Benchmarking reversed array with N = 10000 with 1,000 runs
+2021-09-24 13:29:27 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-24 13:30:33 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:30:33 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:30:33 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 20 runs
+2021-09-24 13:30:34 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 20 runs
+2021-09-24 13:30:34 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 20 runs
+2021-09-24 13:30:34 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 20 runs
+2021-09-24 13:31:22 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:31:22 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:31:22 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:31:22 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:31:22 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:31:22 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:33:50 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:33:50 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:33:50 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:33:50 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:33:50 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:33:50 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:34:50 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:34:50 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:34:50 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:34:50 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:34:50 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:34:50 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:35:52 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:35:52 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:35:52 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:35:52 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:35:52 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:35:52 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:36:39 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:36:39 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:36:39 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:36:40 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:36:40 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:36:40 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:36:55 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:36:55 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:36:55 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:36:55 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:36:55 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:36:55 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:37:09 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:37:09 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:37:09 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:37:09 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 13:37:09 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 13:37:09 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 13:37:24 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:37:24 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:37:24 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:37:24 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 13:37:24 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 13:37:24 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 13:38:12 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:38:12 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:38:12 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 5 runs
+2021-09-24 13:38:12 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 5 runs
+2021-09-24 13:38:12 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 5 runs
+2021-09-24 13:38:12 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 5 runs
+2021-09-24 13:38:34 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:38:34 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:38:34 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:38:34 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:38:35 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:38:35 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:39:01 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:39:01 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:39:01 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:39:01 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:39:01 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:39:01 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:39:43 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:39:43 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:39:43 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:39:43 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:39:43 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:39:43 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:40:01 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:40:01 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:40:02 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 50 runs
+2021-09-24 13:40:07 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 50 runs
+2021-09-24 13:40:10 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 50 runs
+2021-09-24 13:40:15 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 50 runs
+2021-09-24 13:41:24 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:41:24 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:41:24 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 30 runs
+2021-09-24 13:41:24 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 30 runs
+2021-09-24 13:41:24 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 30 runs
+2021-09-24 13:41:24 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 30 runs
+2021-09-24 13:42:25 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:42:25 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:42:25 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 30 runs
+2021-09-24 13:42:26 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 30 runs
+2021-09-24 13:42:26 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 30 runs
+2021-09-24 13:42:26 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 30 runs
+2021-09-24 13:42:52 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:42:52 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:42:52 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 30 runs
+2021-09-24 13:42:52 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 30 runs
+2021-09-24 13:42:52 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 30 runs
+2021-09-24 13:42:52 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 30 runs
+2021-09-24 13:44:28 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:44:28 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:44:28 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 30 runs
+2021-09-24 13:44:28 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 30 runs
+2021-09-24 13:44:28 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 30 runs
+2021-09-24 13:44:28 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 30 runs
+2021-09-24 13:44:46 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-24 13:44:46 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-24 13:44:46 INFO  Benchmark_Timer - Begin run: reversedInsertionSortTimer with 30 runs
+2021-09-24 13:44:47 INFO  Benchmark_Timer - Begin run: randomInsertionSortTimer with 30 runs
+2021-09-24 13:44:47 INFO  Benchmark_Timer - Begin run: partiallyInsertionSortTimer with 30 runs
+2021-09-24 13:44:47 INFO  Benchmark_Timer - Begin run: orderedInsertionSortTimer with 30 runs
+2021-09-24 13:59:31 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 13:59:32 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 13:59:33 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 13:59:33 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 13:59:35 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 13:59:35 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 13:59:37 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 13:59:38 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 13:59:44 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 13:59:44 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 13:59:55 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 13:59:58 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:00:29 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:00:29 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:01:12 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:00 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:01 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:01 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:01 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:01 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:02 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:02 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:04 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-24 14:04:04 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-24 14:04:08 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-24 14:04:08 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-24 14:04:15 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:06:58 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:06:59 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:06:59 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:06:59 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:06:59 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:01 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:07:01 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:07:01 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:07:02 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:10 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:07:11 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:07:11 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:07:13 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:28 INFO  Benchmark_Timer - Begin run: randomSort with 1,000 runs
+2021-09-25 00:07:29 INFO  Benchmark_Timer - Begin run: arrangedSort with 1,000 runs
+2021-09-25 00:07:29 INFO  Benchmark_Timer - Begin run: reverseSort with 1,000 runs
+2021-09-25 00:07:29 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:29 INFO  Benchmark_Timer - Begin run: randomSort with 1,000 runs
+2021-09-25 00:07:31 INFO  Benchmark_Timer - Begin run: arrangedSort with 1,000 runs
+2021-09-25 00:07:31 INFO  Benchmark_Timer - Begin run: reverseSort with 1,000 runs
+2021-09-25 00:07:33 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:33 INFO  Benchmark_Timer - Begin run: randomSort with 1,000 runs
+2021-09-25 00:07:38 INFO  Benchmark_Timer - Begin run: arrangedSort with 1,000 runs
+2021-09-25 00:07:38 INFO  Benchmark_Timer - Begin run: reverseSort with 1,000 runs
+2021-09-25 00:07:47 INFO  Benchmark_Timer - Begin run: partialSort with 1,000 runs
+2021-09-25 00:07:49 INFO  Benchmark_Timer - Begin run: randomSort with 1,000 runs
+2021-09-25 00:08:07 INFO  Benchmark_Timer - Begin run: arrangedSort with 1,000 runs
+2021-09-25 00:08:07 INFO  Benchmark_Timer - Begin run: reverseSort with 1,000 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:34 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:08:35 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:36 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:36 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:38 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 00:08:38 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 00:08:41 INFO  Benchmark_Timer - Begin run: arrangedSort with 10 runs
+2021-09-25 00:08:41 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 00:08:47 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:44 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:45 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:46 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:46 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:48 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:30:48 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:30:52 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:30:52 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:30:58 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:33 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:34 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:34 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:34 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:34 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:35 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:35 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:36 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 10:31:37 INFO  Benchmark_Timer - Begin run: randomSort with 10 runs
+2021-09-25 10:31:40 INFO  Benchmark_Timer - Begin run: orderedSort with 10 runs
+2021-09-25 10:31:40 INFO  Benchmark_Timer - Begin run: reverseSort with 10 runs
+2021-09-25 10:31:46 INFO  Benchmark_Timer - Begin run: partialSort with 10 runs
+2021-09-25 16:17:18 DEBUG Config - Config.get(helper, instrument) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(helper, seed) = 0
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, inversions) = 1
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-09-25 16:17:18 DEBUG Config - Config.get(helper, cutoff) = 
+2021-09-25 16:20:12 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-09-25 16:20:22 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
+2021-09-25 16:20:22 INFO  Benchmark_Timer - Begin run: Helper for Insertion sort with 0 elements with 100 runs
+2021-09-25 16:20:22 INFO  TimeLogger - test .00
