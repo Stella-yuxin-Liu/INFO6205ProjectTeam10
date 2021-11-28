@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" time="0.106" errors="6" skipped="0">
+<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" time="0.036" errors="6" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test1" time="0.049">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test1" time="0.032">
     <error message="Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test1(PrimsTest.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -93,7 +93,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test2" time="0.008">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test2" time="0.001">
     <error message="Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test2(PrimsTest.java:82)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -130,7 +130,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test3" time="0.002">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test3" time="0.001">
     <error message="Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test3(PrimsTest.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -167,7 +167,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test4" time="0.045">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test4" time="0.001">
     <error message="Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test4(PrimsTest.java:144)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -204,7 +204,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test5" time="0.001">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest" name="test5" time="0">
     <error message="Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Iterable.iterator()&quot; because the return value of &quot;edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()&quot; is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test5(PrimsTest.java:177)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

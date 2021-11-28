@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.randomwalk.RandomWalkTest" time="2.031" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.randomwalk.RandomWalkTest" time="0.556" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,10 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testRandomWalk2" time="0.044"/>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove0" time="0.009"/>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove1" time="0.004"/>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove2" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove3" time="0.024"/>
-  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testRandomWalk" time="1.948"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testRandomWalk2" time="0.02"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove0" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove1" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove2" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testMove3" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.randomwalk.RandomWalkTest" name="testRandomWalk" time="0.522"/>
 </testsuite>

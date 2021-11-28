@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.bqs.BagTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec <<< FAILURE!
-testToString(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+testToString(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.testToString(BagTest.java:113)
@@ -39,7 +39,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testBagAdd1(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0 sec  <<< FAILURE!
+testBagAdd1(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.007 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.iterator(Bag_Array.java:56)
 	at edu.neu.coe.info6205.bqs.BagTest.testBagAdd1(BagTest.java:21)
@@ -113,7 +113,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-contains(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+contains(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.contains(BagTest.java:91)
@@ -150,7 +150,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-clear(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+clear(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.clear(BagTest.java:81)
@@ -187,7 +187,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-multiplicity(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+multiplicity(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.multiplicity(BagTest.java:101)
@@ -224,7 +224,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testIterator(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0 sec  <<< FAILURE!
+testIterator(edu.neu.coe.info6205.bqs.BagTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.testIterator(BagTest.java:54)

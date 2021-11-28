@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="5" name="edu.neu.coe.info6205.reduction.MovesTest" time="0.032" errors="0" skipped="0">
+<testsuite tests="8" failures="5" name="edu.neu.coe.info6205.reduction.MovesTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_1" time="0">
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_1" time="0.006">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -98,8 +98,8 @@
     <system-out>test1: 1,1-&gt;3,5
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_3" time="0.001">
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test2_3" time="0">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -141,7 +141,7 @@
     <system-out>test3: 1,1-&gt;1,1
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_1" time="0.01">
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_1" time="0.008">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -184,7 +184,7 @@
 </system-out>
   </testcase>
   <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_3" time="0.017">
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_3" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -226,7 +226,7 @@
     <system-out>test3: 1,1-&gt;1,1
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_4" time="0.002">
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_4" time="0.004">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -268,5 +268,5 @@
     <system-out>test3: 1,1-&gt;99,100
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_5" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.reduction.MovesTest" name="test3_5" time="0.001"/>
 </testsuite>

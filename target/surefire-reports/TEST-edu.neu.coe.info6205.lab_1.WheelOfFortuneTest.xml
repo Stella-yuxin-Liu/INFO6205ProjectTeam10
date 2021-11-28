@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" time="0.033" errors="6" skipped="0">
+<testsuite tests="8" failures="0" name="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" time="0.023" errors="6" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="videoPoker" time="0.027">
-    <error message="logic error: java.util.Random@64c87930" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@64c87930
+  <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="videoPoker" time="0.018">
+    <error message="logic error: java.util.Random@400cff1a" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@400cff1a
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.videoPoker(WheelOfFortuneTest.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -97,7 +97,7 @@
 </error>
   </testcase>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getWheelOfFortuneBoolean" time="0.001">
-    <error message="logic error: java.util.Random@275710fc" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@275710fc
+    <error message="logic error: java.util.Random@525f1e4e" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@525f1e4e
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getWheelOfFortuneBoolean(WheelOfFortuneTest.java:89)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -137,7 +137,7 @@
 </error>
   </testcase>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="get" time="0.001">
-    <error message="logic error: java.util.Random@75f9eccc" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@75f9eccc
+    <error message="logic error: java.util.Random@52aa2946" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@52aa2946
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.get(WheelOfFortuneTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -178,8 +178,8 @@
   </testcase>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="valueOf" time="0"/>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getTotal" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getRandom0" time="0.002">
-    <error message="logic error: java.util.Random@4de5031f" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@4de5031f
+  <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getRandom0" time="0.001">
+    <error message="logic error: java.util.Random@67e2d983" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@67e2d983
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom0(WheelOfFortuneTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -219,7 +219,7 @@
 </error>
   </testcase>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getRandom1" time="0.001">
-    <error message="logic error: java.util.Random@5d47c63f" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@5d47c63f
+    <error message="logic error: java.util.Random@5ea434c8" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@5ea434c8
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom1(WheelOfFortuneTest.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -259,7 +259,7 @@
 </error>
   </testcase>
   <testcase classname="edu.neu.coe.info6205.lab_1.WheelOfFortuneTest" name="getRandom2" time="0.001">
-    <error message="logic error: java.util.Random@3bbc39f8" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@3bbc39f8
+    <error message="logic error: java.util.Random@4ae3c1cd" type="java.lang.RuntimeException">java.lang.RuntimeException: logic error: java.util.Random@4ae3c1cd
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom2(WheelOfFortuneTest.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

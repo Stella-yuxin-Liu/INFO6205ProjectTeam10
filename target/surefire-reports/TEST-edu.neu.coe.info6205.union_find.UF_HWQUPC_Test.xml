@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="6" name="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" time="0.027" errors="0" skipped="0">
+<testsuite tests="13" failures="6" name="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" time="0.015" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testIsConnected01" time="0.004"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testIsConnected01" time="0.007"/>
   <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testIsConnected02" time="0"/>
   <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testIsConnected03" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
@@ -140,7 +140,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind2" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind2" time="0.001">
     <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -181,7 +181,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind3" time="0">
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind3" time="0.001">
     <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -222,7 +222,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind4" time="0.003">
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind4" time="0.001">
     <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -263,10 +263,10 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind5" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testToString" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testFind5" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testToString" time="0"/>
   <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testConnect01" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testConnect02" time="0.005">
+  <testcase classname="edu.neu.coe.info6205.union_find.UF_HWQUPC_Test" name="testConnect02" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="edu.neu.coe.info6205.TupleTest" time="0.499" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="edu.neu.coe.info6205.TupleTest" time="0.045" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.TupleTest" name="testTupleRandom" time="0.272"/>
+  <testcase classname="edu.neu.coe.info6205.TupleTest" name="testTupleRandom" time="0.042"/>
   <testcase classname="edu.neu.coe.info6205.TupleTest" name="testTuple1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.TupleTest" name="testTuple2" time="0.227"/>
+  <testcase classname="edu.neu.coe.info6205.TupleTest" name="testTuple2" time="0.003"/>
 </testsuite>

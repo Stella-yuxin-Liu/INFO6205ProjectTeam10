@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" time="0" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" time="0.01" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,9 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getX" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getY" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getLongitude" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="toStringTest" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getX" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getY" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getLongitude" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="toStringTest" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.graphs.gis.Position_SphericalTest" name="getLatitude" time="0"/>
 </testsuite>

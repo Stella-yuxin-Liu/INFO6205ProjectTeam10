@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" time="0.895" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" time="0.259" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,15 +56,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSort" time="0.022"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartition1" time="0.039"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartition2" time="0.013"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting0" time="0.022"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting1" time="0.031"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting2" time="0.494"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting3" time="0.051"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting4" time="0.024"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting5" time="0.047"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartitionWithSort" time="0.017"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortDetailed" time="0.135"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSort" time="0.012"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartition1" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartition2" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting0" time="0.009"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting1" time="0.014"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting2" time="0.038"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting3" time="0.069"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting4" time="0.084"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortWithInstrumenting5" time="0.012"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testPartitionWithSort" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.QuickSort3WayTest" name="testSortDetailed" time="0.013"/>
 </testsuite>

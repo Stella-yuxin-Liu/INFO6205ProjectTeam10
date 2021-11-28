@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.symbolTable.BSTTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.187 sec <<< FAILURE!
+Tests run: 19, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.06 sec <<< FAILURE!
 testDelete2(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot read field "smaller" because "bst.root" is null
 	at edu.neu.coe.info6205.symbolTable.BSTTest.testDelete2(BSTTest.java:164)
@@ -38,7 +38,7 @@ java.lang.NullPointerException: Cannot read field "smaller" because "bst.root" i
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDelete3(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testDelete3(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.013 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot read field "smaller" because "bst.root" is null
 	at edu.neu.coe.info6205.symbolTable.BSTTest.testDelete3(BSTTest.java:178)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -74,7 +74,7 @@ java.lang.NullPointerException: Cannot read field "smaller" because "bst.root" i
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDelete4(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+testDelete4(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<2> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -114,7 +114,7 @@ java.lang.AssertionError: expected:<2> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testTraverse(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+testTraverse(edu.neu.coe.info6205.symbolTable.BSTTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<X> but was:<null>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="35" failures="1" name="edu.neu.coe.info6205.sort.InstrumentedHelperTest" time="0.208" errors="0" skipped="0">
+<testsuite tests="35" failures="1" name="edu.neu.coe.info6205.sort.InstrumentedHelperTest" time="0.019" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testMergeSort" time="0.093">
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testMergeSort" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -97,37 +97,37 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testGetSetNBis" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwapConditional1" time="0.007"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testGetSetNBis" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwapConditional1" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwapStable" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="cutoff" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testClose" time="0.027"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap1" time="0.008"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap2" time="0.018"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap3" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap4" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap5" time="0.004"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap6" time="0.008"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testLess" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testToString" time="0.018"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testPostProcess1" time="0.007"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testPostProcess2" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testClose" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap3" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap4" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap5" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSwap6" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testLess" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testToString" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testPostProcess1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testPostProcess2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testGetSetN" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="incrementCopies" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="swapInto" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="copy" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="init" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="init" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testCompare1" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="postProcess" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testCompare" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testGetDescription" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="preProcess" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testInversions" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testFixInversion1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testGetDescription" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="preProcess" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testInversions" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testFixInversion1" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testFixInversion2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testToString1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testRandom" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSorted" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testRandom" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testSorted" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="incrementFixes" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="swapStableConditional" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.InstrumentedHelperTest" name="testInstrumented" time="0"/>

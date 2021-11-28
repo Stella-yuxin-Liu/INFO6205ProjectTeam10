@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="7" name="edu.neu.coe.info6205.bqs.BagTest" time="0.029" errors="0" skipped="0">
+<testsuite tests="7" failures="7" name="edu.neu.coe.info6205.bqs.BagTest" time="0.014" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testToString" time="0.014">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testToString" time="0">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.testToString(BagTest.java:113)
@@ -94,7 +94,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testBagAdd1" time="0">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testBagAdd1" time="0.007">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.iterator(Bag_Array.java:56)
 	at edu.neu.coe.info6205.bqs.BagTest.testBagAdd1(BagTest.java:21)
@@ -170,7 +170,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="contains" time="0.006">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="contains" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.contains(BagTest.java:91)
@@ -208,7 +208,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="clear" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="clear" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.clear(BagTest.java:81)
@@ -246,7 +246,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="multiplicity" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="multiplicity" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.multiplicity(BagTest.java:101)
@@ -284,7 +284,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testIterator" time="0">
+  <testcase classname="edu.neu.coe.info6205.bqs.BagTest" name="testIterator" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.bqs.BagTest.testIterator(BagTest.java:54)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="2" name="edu.neu.coe.info6205.sort.classic.BucketSortTest" time="1.873" errors="0" skipped="0">
+<testsuite tests="2" failures="2" name="edu.neu.coe.info6205.sort.classic.BucketSortTest" time="0.387" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.classic.BucketSortTest" name="sort4" time="0.131">
+  <testcase classname="edu.neu.coe.info6205.sort.classic.BucketSortTest" name="sort4" time="0.021">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.sort.classic.BucketSort.sort(BucketSort.java:45)
@@ -97,10 +97,10 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-out>2021-11-27 15:30:45 INFO  BucketSort - 5
+    <system-out>2021-11-27 22:59:27 INFO  BucketSort - 5
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.classic.BucketSortTest" name="sortN" time="1.742">
+  <testcase classname="edu.neu.coe.info6205.sort.classic.BucketSortTest" name="sortN" time="0.366">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.sort.classic.BucketSort.sort(BucketSort.java:45)
@@ -141,7 +141,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-out>2021-11-27 15:30:47 INFO  BucketSort - 25033017
+    <system-out>2021-11-27 22:59:27 INFO  BucketSort - 24650235
 </system-out>
   </testcase>
 </testsuite>

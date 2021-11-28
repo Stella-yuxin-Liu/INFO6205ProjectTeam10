@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="edu.neu.coe.info6205.sort.elementary.ShellSortTest" time="0.627" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="edu.neu.coe.info6205.sort.elementary.ShellSortTest" time="0.114" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,17 +56,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="testSedgewick50" time="0.129"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="testSedgewick0" time="0.004"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="testSedgewick50" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="testSedgewick0" time="0.009"/>
   <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="hSort3" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort5a" time="0.042"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort6a" time="0.01"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort7a" time="0.312"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sortH1" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sortH2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort2" time="0.008"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort3" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort5a" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort6a" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort7a" time="0.062"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sortH1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sortH2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort2" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort3" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort4" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort7" time="0.116"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.ShellSortTest" name="sort7" time="0.021"/>
 </testsuite>

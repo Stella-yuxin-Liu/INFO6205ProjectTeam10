@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.union_find.UF_HWQUPC_Test
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+Tests run: 13, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec <<< FAILURE!
 testIsConnected03(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
@@ -81,7 +81,7 @@ java.lang.AssertionError: expected:<0> but was:<1>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testFind2(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.004 sec  <<< FAILURE!
+testFind2(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<0> but was:<1>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -121,7 +121,7 @@ java.lang.AssertionError: expected:<0> but was:<1>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testFind3(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0 sec  <<< FAILURE!
+testFind3(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<0> but was:<1>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -161,7 +161,7 @@ java.lang.AssertionError: expected:<0> but was:<1>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testFind4(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.003 sec  <<< FAILURE!
+testFind4(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<0> but was:<1>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -201,7 +201,7 @@ java.lang.AssertionError: expected:<0> but was:<1>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testConnect02(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.005 sec  <<< FAILURE!
+testConnect02(edu.neu.coe.info6205.union_find.UF_HWQUPC_Test)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

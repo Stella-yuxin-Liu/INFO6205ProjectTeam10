@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="5" name="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" time="0.733" errors="1" skipped="0">
+<testsuite tests="14" failures="5" name="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" time="0.174" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,9 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort11_partialsorted" time="0.077"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort9_partialsorted" time="0.067"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort1" time="0.017">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort11_partialsorted" time="0.024"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort9_partialsorted" time="0.019"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort1" time="0.006">
     <failure message="expected:&lt;1&gt; but was:&lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;3&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -100,7 +100,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort2" time="0.055">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort2" time="0.004">
     <error message="Array is not sorted" type="edu.neu.coe.info6205.sort.BaseHelper$HelperException">edu.neu.coe.info6205.sort.BaseHelper$HelperException: Array is not sorted
 	at edu.neu.coe.info6205.sort.InstrumentedHelper.postProcess(InstrumentedHelper.java:311)
 	at edu.neu.coe.info6205.sort.linearithmic.MergeSortTest.testSort2(MergeSortTest.java:60)
@@ -141,7 +141,7 @@
     <system-out>Instrumenting helper for merge sort with 128 elements
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort3" time="0.189">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort3" time="0.015">
     <failure message="expected:&lt;448&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;448&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -187,13 +187,13 @@ Instrumenting helper for merge sort with 128 elements
 StatPack {hits: 0; copies: 0; inversions: &lt;unset&gt;; swaps: 0; fixes: 0; compares: 0}
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort4" time="0.025"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort5" time="0.015"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort6" time="0.085"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort7" time="0.01"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort10_partialsorted" time="0.078"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort8_partialsorted" time="0.057"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort12" time="0.034">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort4" time="0.008"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort5" time="0.018"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort6" time="0.029"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort7" time="0.014"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort10_partialsorted" time="0.007"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort8_partialsorted" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort12" time="0.01">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -236,7 +236,7 @@ StatPack {hits: 0; copies: 0; inversions: &lt;unset&gt;; swaps: 0; fixes: 0; com
     <system-out>testing Instrumenting helper for MergeSort: with insurance comparison with 8 elements
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort13" time="0.006">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort13" time="0.007">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -279,7 +279,7 @@ StatPack {hits: 0; copies: 0; inversions: &lt;unset&gt;; swaps: 0; fixes: 0; com
     <system-out>testing Instrumenting helper for MergeSort: with no copy with 8 elements
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort14" time="0.018">
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.MergeSortTest" name="testSort14" time="0.007">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

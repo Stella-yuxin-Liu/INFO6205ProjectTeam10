@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="19" failures="2" name="edu.neu.coe.info6205.symbolTable.BSTTest" time="0.178" errors="2" skipped="0">
+<testsuite tests="19" failures="2" name="edu.neu.coe.info6205.symbolTable.BSTTest" time="0.054" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,12 +56,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSize1" time="0.135"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSize2" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut0" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSize1" time="0.021"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSize2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut0" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut1" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut3" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPut3" time="0"/>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPutN" time="0"/>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDepthKey1" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDepthKey2" time="0"/>
@@ -103,7 +103,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDelete3" time="0.001">
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDelete3" time="0.013">
     <error message="Cannot read field &quot;smaller&quot; because &quot;bst.root&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot read field &quot;smaller&quot; because &quot;bst.root&quot; is null
 	at edu.neu.coe.info6205.symbolTable.BSTTest.testDelete3(BSTTest.java:178)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -140,7 +140,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDelete4" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDelete4" time="0.001">
     <failure message="expected:&lt;2&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -183,8 +183,8 @@
   </testcase>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDepth1" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testDepth2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPutAll" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testTraverse" time="0.022">
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testPutAll" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testTraverse" time="0.002">
     <failure message="expected:&lt;X&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;X&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -225,6 +225,6 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSetRoot1" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSetRoot2" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSetRoot1" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.symbolTable.BSTTest" name="testSetRoot2" time="0.003"/>
 </testsuite>

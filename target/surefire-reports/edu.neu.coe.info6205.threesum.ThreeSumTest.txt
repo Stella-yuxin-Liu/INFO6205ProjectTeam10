@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.threesum.ThreeSumTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 6.212 sec <<< FAILURE!
-testGetTriples0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+Tests run: 10, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 1.092 sec <<< FAILURE!
+testGetTriples0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.021 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -42,7 +42,7 @@ java.lang.AssertionError: expected:<4> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriples2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+testGetTriples2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -82,7 +82,7 @@ java.lang.AssertionError: expected:<1> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriplesC0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+testGetTriplesC0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -122,7 +122,7 @@ java.lang.AssertionError: expected:<4> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriplesC2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+testGetTriplesC2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -162,8 +162,8 @@ java.lang.AssertionError: expected:<1> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriplesC3(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 5.83 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<12980> but was:<0>
+testGetTriplesC3(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.994 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<13158> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -202,7 +202,7 @@ java.lang.AssertionError: expected:<12980> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriplesJ0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+testGetTriplesJ0(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -282,7 +282,7 @@ java.lang.AssertionError: expected:<2> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetTriplesJ2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+testGetTriplesJ2(edu.neu.coe.info6205.threesum.ThreeSumTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="3" name="edu.neu.coe.info6205.bqs.QueueTest" time="0.155" errors="0" skipped="0">
+<testsuite tests="4" failures="3" name="edu.neu.coe.info6205.bqs.QueueTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue0" time="0.005"/>
-  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue1" time="0.127">
+  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue0" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue1" time="0.003">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -139,7 +139,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue3" time="0.022">
+  <testcase classname="edu.neu.coe.info6205.bqs.QueueTest" name="testQueue3" time="0.002">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

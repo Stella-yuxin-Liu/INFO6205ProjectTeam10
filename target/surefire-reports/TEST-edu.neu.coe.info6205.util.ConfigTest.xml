@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.util.ConfigTest" time="0.026" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.util.ConfigTest" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testCopy1" time="0.004"/>
-  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testCopy2" time="0.013"/>
-  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testConfigFixed" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testConfig" time="0.008"/>
+  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testCopy1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testCopy2" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testConfigFixed" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.util.ConfigTest" name="testConfig" time="0.016"/>
 </testsuite>

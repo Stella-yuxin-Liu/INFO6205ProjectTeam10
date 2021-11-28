@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.graphs.tunnels.BuildingTest" name="getPosition" time="0.009"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.tunnels.BuildingTest" name="getPosition" time="0.005"/>
   <testcase classname="edu.neu.coe.info6205.graphs.tunnels.BuildingTest" name="getName" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.graphs.tunnels.BuildingTest" name="toStringTest" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.tunnels.BuildingTest" name="toStringTest" time="0.004"/>
 </testsuite>

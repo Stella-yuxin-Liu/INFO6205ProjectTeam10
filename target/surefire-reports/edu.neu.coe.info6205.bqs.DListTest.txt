@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.bqs.DListTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 5, Errors: 2, Skipped: 0, Time elapsed: 0.164 sec <<< FAILURE!
-testDList1(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 8, Failures: 5, Errors: 2, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE!
+testDList1(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -42,7 +42,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList2(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+testDList2(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -82,7 +82,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList3(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+testDList3(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -122,7 +122,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList4(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.016 sec  <<< ERROR!
+testDList4(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0 sec  <<< ERROR!
 edu.neu.coe.info6205.bqs.BQSException: item not found: 1
 	at edu.neu.coe.info6205.bqs.DList.remove(DList.java:79)
 	at edu.neu.coe.info6205.bqs.DListTest.testDList4(DListTest.java:61)
@@ -159,7 +159,7 @@ edu.neu.coe.info6205.bqs.BQSException: item not found: 1
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList5(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.072 sec  <<< FAILURE!
+testDList5(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -199,7 +199,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList6(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.026 sec  <<< FAILURE!
+testDList6(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -239,7 +239,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDList7(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0.034 sec  <<< ERROR!
+testDList7(edu.neu.coe.info6205.bqs.DListTest)  Time elapsed: 0 sec  <<< ERROR!
 edu.neu.coe.info6205.bqs.BQSException: item not found: 1
 	at edu.neu.coe.info6205.bqs.DList.addAfter(DList.java:65)
 	at edu.neu.coe.info6205.bqs.DListTest.testDList7(DListTest.java:92)

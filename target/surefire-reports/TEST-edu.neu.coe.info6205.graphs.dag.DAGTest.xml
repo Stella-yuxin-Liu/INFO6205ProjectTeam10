@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="6" name="edu.neu.coe.info6205.graphs.dag.DAGTest" time="0.072" errors="0" skipped="0">
+<testsuite tests="6" failures="6" name="edu.neu.coe.info6205.graphs.dag.DAGTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -95,7 +95,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDAG" time="0.054">
+  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDAG" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.iterator(Bag_Array.java:56)
 	at edu.neu.coe.info6205.graphs.dag.DAGTest.testDAG(DAGTest.java:30)
@@ -133,7 +133,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDFS" time="0.012">
+  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDFS" time="0.006">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.graphs.dag.DAG_Impl.addEdge(DAG_Impl.java:65)
@@ -174,7 +174,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDag2" time="0.002">
+  <testcase classname="edu.neu.coe.info6205.graphs.dag.DAGTest" name="testDag2" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.graphs.dag.DAG_Impl.addEdge(DAG_Impl.java:65)

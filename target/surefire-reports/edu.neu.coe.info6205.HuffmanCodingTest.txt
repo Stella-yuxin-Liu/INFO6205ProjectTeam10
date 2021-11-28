@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.HuffmanCodingTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.343 sec <<< FAILURE!
-testEncode1(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.184 sec  <<< ERROR!
+Tests run: 9, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.05 sec <<< FAILURE!
+testEncode1(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.018 sec  <<< ERROR!
 java.lang.RuntimeException: unknown symbol: null
 	at edu.neu.coe.info6205.HuffmanCoding$HuffmanEncoder.encode(HuffmanCoding.java:106)
 	at edu.neu.coe.info6205.HuffmanCodingTest.testEncode1(HuffmanCodingTest.java:102)
@@ -39,7 +39,7 @@ java.lang.RuntimeException: unknown symbol: null
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testEncode2(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.007 sec  <<< ERROR!
+testEncode2(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.RuntimeException: unknown symbol: K
 	at edu.neu.coe.info6205.HuffmanCoding$HuffmanEncoder.encode(HuffmanCoding.java:106)
 	at edu.neu.coe.info6205.HuffmanCodingTest.testEncode2(HuffmanCodingTest.java:120)
@@ -76,7 +76,7 @@ java.lang.RuntimeException: unknown symbol: K
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testShowTree(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.118 sec  <<< FAILURE!
+testShowTree(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.018 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[  : N-2-NT-X-null-XX-9-Q-8-J-T-A-K-7-6-P-5-4-D️-1-3-S️-C️-H️-W-Z-E (319) 
     0: N-2-NT-X-null-XX-9-Q-8-J-T-A-K-7-6 (122) 
     0  0: N-2-NT-X-null-XX-9 (57) 
@@ -167,7 +167,7 @@ org.junit.ComparisonFailure: expected:<[  : N-2-NT-X-null-XX-9-Q-8-J-T-A-K-7-6-P
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testDecode2(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+testDecode2(edu.neu.coe.info6205.HuffmanCodingTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[W]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)

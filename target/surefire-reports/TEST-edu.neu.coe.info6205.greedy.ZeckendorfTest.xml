@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.greedy.ZeckendorfTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.greedy.ZeckendorfTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.greedy.ZeckendorfTest" name="testGet1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.greedy.ZeckendorfTest" name="testGet1" time="0"/>
   <testcase classname="edu.neu.coe.info6205.greedy.ZeckendorfTest" name="testGet2" time="0"/>
   <testcase classname="edu.neu.coe.info6205.greedy.ZeckendorfTest" name="testGet3" time="0"/>
   <testcase classname="edu.neu.coe.info6205.greedy.ZeckendorfTest" name="testGet4" time="0"/>

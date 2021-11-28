@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="8" name="edu.neu.coe.info6205.threesum.ThreeSumTest" time="6.12" errors="0" skipped="0">
+<testsuite tests="10" failures="8" name="edu.neu.coe.info6205.threesum.ThreeSumTest" time="1.085" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples0" time="0.015">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples0" time="0.021">
     <failure message="expected:&lt;4&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -100,8 +100,8 @@
 triples: []
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples1" time="0.218"/>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples2" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples1" time="0.039"/>
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriples2" time="0.001">
     <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -145,7 +145,7 @@ triples: []
 []
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC0" time="0.016">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC0" time="0.003">
     <failure message="expected:&lt;4&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -189,8 +189,8 @@ triples: []
 triples: []
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC1" time="0.014"/>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC2" time="0.004">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC1" time="0.022"/>
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC2" time="0.002">
     <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -234,8 +234,8 @@ triples: []
 []
 </system-out>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC3" time="5.83">
-    <failure message="expected:&lt;12980&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;12980&gt; but was:&lt;0&gt;
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesC3" time="0.994">
+    <failure message="expected:&lt;13158&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;13158&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -275,7 +275,7 @@ triples: []
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesJ0" time="0.003">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesJ0" time="0.001">
     <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -357,7 +357,7 @@ triples: []
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesJ2" time="0.015">
+  <testcase classname="edu.neu.coe.info6205.threesum.ThreeSumTest" name="testGetTriplesJ2" time="0.001">
     <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

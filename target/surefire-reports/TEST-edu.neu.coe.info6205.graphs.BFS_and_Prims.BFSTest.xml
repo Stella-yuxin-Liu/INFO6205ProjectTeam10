@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="4" name="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" time="0.03" errors="0" skipped="0">
+<testsuite tests="4" failures="4" name="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" time="0.017" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs1" time="0.009">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs1" time="0.017">
     <failure message="expected:&lt;[2, 0, 3, 1]&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[2, 0, 3, 1]&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -97,7 +97,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs2" time="0.015">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs2" time="0">
     <failure message="expected:&lt;[0, 1, 3, 4, 2, 5]&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[0, 1, 3, 4, 2, 5]&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -138,7 +138,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs3" time="0.003">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs3" time="0">
     <failure message="expected:&lt;[0, 1, 2, 3, 4, 5]&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[0, 1, 2, 3, 4, 5]&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -179,7 +179,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs4" time="0.003">
+  <testcase classname="edu.neu.coe.info6205.graphs.BFS_and_Prims.BFSTest" name="testbfs4" time="0">
     <failure message="expected:&lt;[0, 2, 1, 3, 4, 5]&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[0, 2, 1, 3, 4, 5]&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="0" name="edu.neu.coe.info6205.sort.BaseHelperTest" time="0.103" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="edu.neu.coe.info6205.sort.BaseHelperTest" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -57,25 +57,25 @@
     <property name="sun.cpu.endian" value="little"/>
   </properties>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted0" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted1" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted2" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted3" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="postProcess1" time="0.035"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted2" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapIntoSorted3" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="postProcess1" time="0.003"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="postProcess2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getSetNBis" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="swapStable" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testToString" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="random" time="0.044"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="sorted" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getSetNBis" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="swapStable" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testToString" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="random" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="sorted" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="fixInversion1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getSetN" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getSetN" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="less" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="swap" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="close" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="swap" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="close" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testSwapInto" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="compare" time="0"/>
   <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="instrumented" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testFixInversion2" time="0.006"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="inversions" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getDescription" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="testFixInversion2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="inversions" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.sort.BaseHelperTest" name="getDescription" time="0.001"/>
 </testsuite>

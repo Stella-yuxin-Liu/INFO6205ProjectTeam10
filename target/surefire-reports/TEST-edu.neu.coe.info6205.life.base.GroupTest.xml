@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="38" failures="0" name="edu.neu.coe.info6205.life.base.GroupTest" time="0.255" errors="0" skipped="0">
+<testsuite tests="38" failures="0" name="edu.neu.coe.info6205.life.base.GroupTest" time="0.071" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,42 +56,42 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testCellsAndNeighbors0" time="0.165"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testCellsAndNeighbors1" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testCellsAndNeighbors0" time="0.037"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testCellsAndNeighbors1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testWithinExtents" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetAbsolute0" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetAbsolute0" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetAbsolute1" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testBlock" time="0.003"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd0" time="0.006"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd2" time="0.007"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testLoaf" time="0.005"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testForEach" time="0.004"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testBlock" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd0" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd1" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testAdd2" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testLoaf" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testForEach" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testConstructor1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testConstructor2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testBeehive" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testConstructor2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testBeehive" time="0.003"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testBlinker" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider1" time="0.015"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider2" time="0.009"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider3" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider1" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider2" time="0.004"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGlider3" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testNewGeneration0" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testNewGeneration1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testChangeOrigin" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testChangeOrigin" time="0.003"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="transpose" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetExtent" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap0" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetExtent" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap0" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap1" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap2" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap3" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap4" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testOverlap4" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testGetOrigin" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testMerge0" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testMerge1" time="0.023"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testMerge2" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testMerge1" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testMerge2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testRemove" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testRender" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testRender" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testToStringInGrid" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.GroupTest" name="testConstructor" time="0"/>
 </testsuite>

@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="testEdge" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="equalsTest" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="testEdge" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="equalsTest" time="0"/>
   <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="toStringTest" time="0"/>
   <testcase classname="edu.neu.coe.info6205.graphs.undirected.EdgeTest" name="hashCodeTest" time="0"/>
 </testsuite>

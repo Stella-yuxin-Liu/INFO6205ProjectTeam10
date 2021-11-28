@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="2" name="edu.neu.coe.info6205.HuffmanCodingTest" time="0.332" errors="2" skipped="0">
+<testsuite tests="9" failures="2" name="edu.neu.coe.info6205.HuffmanCodingTest" time="0.046" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testEncode1" time="0.184">
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testEncode1" time="0.018">
     <error message="unknown symbol: null" type="java.lang.RuntimeException">java.lang.RuntimeException: unknown symbol: null
 	at edu.neu.coe.info6205.HuffmanCoding$HuffmanEncoder.encode(HuffmanCoding.java:106)
 	at edu.neu.coe.info6205.HuffmanCodingTest.testEncode1(HuffmanCodingTest.java:102)
@@ -94,7 +94,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testEncode2" time="0.007">
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testEncode2" time="0.001">
     <error message="unknown symbol: K" type="java.lang.RuntimeException">java.lang.RuntimeException: unknown symbol: K
 	at edu.neu.coe.info6205.HuffmanCoding$HuffmanEncoder.encode(HuffmanCoding.java:106)
 	at edu.neu.coe.info6205.HuffmanCodingTest.testEncode2(HuffmanCodingTest.java:120)
@@ -137,7 +137,7 @@
   <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testGenerateCode" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testAdd" time="0"/>
   <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testCreateHuffmanCoding" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testShowTree" time="0.118">
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testShowTree" time="0.018">
     <failure message="expected:&lt;[  : N-2-NT-X-null-XX-9-Q-8-J-T-A-K-7-6-P-5-4-D️-1-3-S️-C️-H️-W-Z-E (319) 
     0: N-2-NT-X-null-XX-9-Q-8-J-T-A-K-7-6 (122) 
     0  0: N-2-NT-X-null-XX-9 (57) 
@@ -282,8 +282,8 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testDecode1" time="0.01"/>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testDecode2" time="0.012">
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testDecode1" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testDecode2" time="0.002">
     <failure message="expected:&lt;[W]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[W]&gt; but was:&lt;[]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
@@ -322,5 +322,5 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testParseLin" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.HuffmanCodingTest" name="testParseLin" time="0.001"/>
 </testsuite>

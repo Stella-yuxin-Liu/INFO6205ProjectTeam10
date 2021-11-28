@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="edu.neu.coe.info6205.life.base.MatrixTest" time="0.178" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="edu.neu.coe.info6205.life.base.MatrixTest" time="0.04" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,20 +56,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testGetCount" time="0.118"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testAddCell" time="0.011"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testGetCount" time="0.015"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testAddCell" time="0.004"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testToString" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor0" time="0.01"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor1" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor2" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor0" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testConstructor4" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors0" time="0.008"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors1" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors0" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors1" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors2" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testCountNeighbors3" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testRemoveCell" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testIsCell1" time="0"/>
   <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testIsCell2" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testIsCell3" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testRender" time="0.021"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testIsCell3" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.life.base.MatrixTest" name="testRender" time="0.005"/>
 </testsuite>

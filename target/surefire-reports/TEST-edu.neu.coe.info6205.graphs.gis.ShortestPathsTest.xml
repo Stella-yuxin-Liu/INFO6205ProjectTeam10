@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="5" name="edu.neu.coe.info6205.graphs.gis.ShortestPathsTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="5" failures="5" name="edu.neu.coe.info6205.graphs.gis.ShortestPathsTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -212,7 +212,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="edu.neu.coe.info6205.graphs.gis.ShortestPathsTest" name="testShortestPaths5" time="0.005">
+  <testcase classname="edu.neu.coe.info6205.graphs.gis.ShortestPathsTest" name="testShortestPaths5" time="0.002">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.graphs.dag.DiGraph.addEdge(DiGraph.java:11)

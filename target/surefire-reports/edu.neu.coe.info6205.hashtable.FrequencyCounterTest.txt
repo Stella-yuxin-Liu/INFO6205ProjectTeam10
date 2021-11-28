@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.hashtable.FrequencyCounterTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec <<< FAILURE!
-relativeFrequencyAsPercentage(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+relativeFrequencyAsPercentage(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<98.0> but was:<NaN>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -42,7 +42,7 @@ java.lang.AssertionError: expected:<98.0> but was:<NaN>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-keys(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0 sec  <<< FAILURE!
+keys(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 array lengths differed, expected.length=1 actual.length=0; arrays first differed at element [0]; expected:<X> but was:<end of array>
 	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:89)
 	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
@@ -90,7 +90,7 @@ Caused by: java.lang.AssertionError: expected:<X> but was:<end of array>
 	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:87)
 	... 37 more
 
-total(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0 sec  <<< FAILURE!
+total(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<42> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -130,7 +130,7 @@ java.lang.AssertionError: expected:<42> but was:<0>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-relativeFrequency(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0 sec  <<< FAILURE!
+relativeFrequency(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1.0> but was:<NaN>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -170,7 +170,7 @@ java.lang.AssertionError: expected:<1.0> but was:<NaN>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testIncrement0(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.063 sec  <<< FAILURE!
+testIncrement0(edu.neu.coe.info6205.hashtable.FrequencyCounterTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1> but was:<0>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

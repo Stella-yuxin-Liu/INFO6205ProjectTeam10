@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.118 sec <<< FAILURE!
-test1(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.049 sec  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.039 sec <<< FAILURE!
+test1(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.032 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" because the return value of "edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()" is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test1(PrimsTest.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -38,7 +38,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" be
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test2(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.008 sec  <<< ERROR!
+test2(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" because the return value of "edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()" is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test2(PrimsTest.java:82)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -74,7 +74,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" be
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test3(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.002 sec  <<< ERROR!
+test3(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" because the return value of "edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()" is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test3(PrimsTest.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -110,7 +110,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" be
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test4(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.045 sec  <<< ERROR!
+test4(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" because the return value of "edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()" is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test4(PrimsTest.java:144)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -146,7 +146,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" be
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test5(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+test5(edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Iterable.iterator()" because the return value of "edu.neu.coe.info6205.graphs.BFS_and_prims.Prims.edges()" is null
 	at edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest.test5(PrimsTest.java:177)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

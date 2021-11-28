@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.union_find.WQUPCTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.union_find.WQUPCTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -57,9 +57,9 @@
     <property name="sun.cpu.endian" value="little"/>
   </properties>
   <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind0" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind1" time="0.007"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind2" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind3" time="0"/>
-  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind4" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind1" time="0"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind2" time="0.001"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind3" time="0.002"/>
+  <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testFind4" time="0.001"/>
   <testcase classname="edu.neu.coe.info6205.union_find.WQUPCTest" name="testConnected01" time="0"/>
 </testsuite>

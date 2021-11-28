@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" time="0.111" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort0" time="0.014"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort1" time="0.015"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort2" time="0.008"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="testMutatingBubbleSort" time="0.074"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort0" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort1" time="0.003"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="sort2" time="0.006"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.BubbleSortTest" name="testMutatingBubbleSort" time="0.001"/>
 </testsuite>

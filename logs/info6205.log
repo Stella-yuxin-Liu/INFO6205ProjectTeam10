@@ -672,3 +672,24 @@
 2021-11-27 15:30:55 INFO  TimeLogger - test .00
 2021-11-27 15:30:57 DEBUG Config - Config.get(helper, junk) = null
 2021-11-27 15:30:57 DEBUG Config - Config.get(main, version) = null
+2021-11-27 22:59:27 DEBUG Config - Config.get(helper, seed) = null
+2021-11-27 22:59:27 INFO  BucketSort - 5
+2021-11-27 22:59:27 INFO  BucketSort - 24650235
+2021-11-27 22:59:27 DEBUG Config - Config.get(helper, instrument) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, copies) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, swaps) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, compares) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, inversions) = 10
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, fixes) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(instrumenting, hits) = true
+2021-11-27 22:59:28 DEBUG Config - Config.get(helper, cutoff) = 
+2021-11-27 22:59:28 DEBUG Config - Config.get(mergesort, insurance) = false
+2021-11-27 22:59:28 DEBUG Config - Config.get(mergesort, nocopy) = false
+2021-11-27 22:59:29 DEBUG InstrumentedHelper - Closing Helper: test with statPack: null
+2021-11-27 22:59:29 DEBUG LazyLoggerTest - Hello debug message
+2021-11-27 22:59:29 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
+2021-11-27 22:59:30 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
+2021-11-27 22:59:30 INFO  Benchmark_Timer - Begin run: Helper for Insertion sort with 0 elements with 100 runs
+2021-11-27 22:59:30 INFO  TimeLogger - test .00
+2021-11-27 22:59:33 DEBUG Config - Config.get(helper, junk) = null
+2021-11-27 22:59:33 DEBUG Config - Config.get(main, version) = null

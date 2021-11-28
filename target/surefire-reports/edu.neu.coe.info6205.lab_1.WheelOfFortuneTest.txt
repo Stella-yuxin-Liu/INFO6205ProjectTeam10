@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.lab_1.WheelOfFortuneTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.043 sec <<< FAILURE!
-videoPoker(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.027 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@64c87930
+Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.027 sec <<< FAILURE!
+videoPoker(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.RuntimeException: logic error: java.util.Random@400cff1a
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.videoPoker(WheelOfFortuneTest.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -42,7 +42,7 @@ java.lang.RuntimeException: logic error: java.util.Random@64c87930
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
 getWheelOfFortuneBoolean(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@275710fc
+java.lang.RuntimeException: logic error: java.util.Random@525f1e4e
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getWheelOfFortuneBoolean(WheelOfFortuneTest.java:89)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -81,7 +81,7 @@ java.lang.RuntimeException: logic error: java.util.Random@275710fc
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
 get(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@75f9eccc
+java.lang.RuntimeException: logic error: java.util.Random@52aa2946
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.get(WheelOfFortuneTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -119,8 +119,8 @@ java.lang.RuntimeException: logic error: java.util.Random@75f9eccc
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-getRandom0(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.002 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@4de5031f
+getRandom0(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.RuntimeException: logic error: java.util.Random@67e2d983
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom0(WheelOfFortuneTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -159,7 +159,7 @@ java.lang.RuntimeException: logic error: java.util.Random@4de5031f
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
 getRandom1(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@5d47c63f
+java.lang.RuntimeException: logic error: java.util.Random@5ea434c8
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom1(WheelOfFortuneTest.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -198,7 +198,7 @@ java.lang.RuntimeException: logic error: java.util.Random@5d47c63f
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
 getRandom2(edu.neu.coe.info6205.lab_1.WheelOfFortuneTest)  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.RuntimeException: logic error: java.util.Random@3bbc39f8
+java.lang.RuntimeException: logic error: java.util.Random@4ae3c1cd
 	at edu.neu.coe.info6205.lab_1.WheelOfFortune.get(WheelOfFortune.java:61)
 	at edu.neu.coe.info6205.lab_1.WheelOfFortuneTest.getRandom2(WheelOfFortuneTest.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

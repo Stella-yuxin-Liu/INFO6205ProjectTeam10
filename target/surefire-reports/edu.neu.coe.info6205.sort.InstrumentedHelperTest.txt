@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.sort.InstrumentedHelperTest
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.413 sec <<< FAILURE!
-testMergeSort(edu.neu.coe.info6205.sort.InstrumentedHelperTest)  Time elapsed: 0.093 sec  <<< FAILURE!
+Tests run: 35, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec <<< FAILURE!
+testMergeSort(edu.neu.coe.info6205.sort.InstrumentedHelperTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

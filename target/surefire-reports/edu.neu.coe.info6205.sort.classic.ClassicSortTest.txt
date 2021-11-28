@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.sort.classic.ClassicSortTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec <<< FAILURE!
-mutatingSort(edu.neu.coe.info6205.sort.classic.ClassicSortTest)  Time elapsed: 0.105 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec <<< FAILURE!
+mutatingSort(edu.neu.coe.info6205.sort.classic.ClassicSortTest)  Time elapsed: 0.034 sec  <<< FAILURE!
 java.lang.AssertionError
 	at edu.neu.coe.info6205.bqs.Bag_Array.add(Bag_Array.java:18)
 	at edu.neu.coe.info6205.sort.classic.ClassicSort.sort(ClassicSort.java:31)

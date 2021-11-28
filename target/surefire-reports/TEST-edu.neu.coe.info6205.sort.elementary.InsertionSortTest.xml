@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" time="0.086" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" time="0.02" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,10 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="testMutatingInsertionSort" time="0.033"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="testMutatingInsertionSort" time="0.002"/>
   <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort0" time="0.001"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort1" time="0.011"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort2" time="0.013"/>
-  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort3" time="0.025"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort1" time="0.004"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort2" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="sort3" time="0.005"/>
   <testcase classname="edu.neu.coe.info6205.sort.elementary.InsertionSortTest" name="testStaticInsertionSort" time="0.003"/>
 </testsuite>

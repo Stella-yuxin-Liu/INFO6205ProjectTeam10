@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" time="0.113" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" time="0.045" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -56,10 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSort1" time="0.03"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSort1" time="0.005"/>
   <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testPartition" time="0.002"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testHeapSort" time="0.004"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSortDetailed1" time="0.012"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSortDetailed2" time="0.044"/>
-  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testInsertionSort" time="0.021"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testHeapSort" time="0.005"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSortDetailed1" time="0.013"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testSortDetailed2" time="0.018"/>
+  <testcase classname="edu.neu.coe.info6205.sort.linearithmic.IntroSortTest" name="testInsertionSort" time="0.002"/>
 </testsuite>

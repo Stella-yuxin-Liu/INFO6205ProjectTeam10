@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.neu.coe.info6205.reduction.MovesTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec <<< FAILURE!
-test2_1(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+test2_1(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.006 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -41,7 +41,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test2_3(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+test2_3(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -80,7 +80,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test3_1(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+test3_1(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.008 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -119,7 +119,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test3_3(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.017 sec  <<< FAILURE!
+test3_3(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -158,7 +158,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test3_4(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+test3_4(edu.neu.coe.info6205.reduction.MovesTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
