@@ -27,3 +27,7 @@ Use Bash Command to download this folder
 ```bash
 git clone git@github.com:Stella-yuxin-Liu/INFO6205ProjectTeam10.git
 ```
+## How to run it
+1.add two jar package from lib
+2.rum main in INFO6205ProjectTeam10\src\main\java\main to test the time
+3.Unit test are in INFO6205ProjectTeam10\src\test\java\edu\neu\coe\info6205\sort\TestFinal
