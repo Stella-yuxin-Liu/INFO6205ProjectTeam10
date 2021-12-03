@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import edu.neu.coe.huskySort.sort.huskySort.PureHuskySorts;
+import edu.neu.coe.huskySort.sort.huskySort.PureHuskySort;
 import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
 import edu.neu.coe.info6205.sort.counting.LSDStringSort;
 import edu.neu.coe.info6205.sort.counting.MSDStringSort;
@@ -26,7 +26,7 @@ public class Mains {
 		int numnbers = 1000000;
 
 		String[] strs = getLines(
-				"\\submitted\\INFO6205-main\\src\\main\\resources\\shuffledChinese.txt",
+				"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
 				999998);
 		//only double when we need input larger than 1M
 		//strs = doubleArray(strs);
@@ -52,7 +52,7 @@ public class Mains {
 		QuickSortDualPivot qsdp = new QuickSortDualPivot();
 		LSDStringSort ls = new LSDStringSort();
 		TimSort tSort = new TimSort<>();
-		PureHuskySorts ph = new PureHuskySorts<>(HuskyCoderFactory.asciiCoder, false, false);
+		PureHuskySort ph = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
 		MSD msd = new MSD();
 		String[] str3 = convertToPinyin(strs);
 		for (int i = 0; i < times; i++) {

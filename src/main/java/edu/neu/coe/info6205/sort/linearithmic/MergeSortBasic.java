@@ -26,7 +26,7 @@ public class MergeSortBasic<X extends Comparable<X>> extends SortWithHelper<X> {
     /**
      * Constructor for MergeSort
      *
-     * @param N      the number elements we expect to sort.
+     * @param N      the number elements we expect to huskySort.sort.
      * @param config the configuration.
      */
     public MergeSortBasic(int N, Config config) {

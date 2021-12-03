@@ -8,10 +8,10 @@ import java.util.Arrays;
 public interface Sort<X> extends GenericSort<X> {
 
     /**
-     * Generic, non-mutating sort method which allows for explicit determination of the makeCopy option.
+     * Generic, non-mutating huskySort.sort method which allows for explicit determination of the makeCopy option.
      *
-     * @param xs       sort the array xs, returning the sorted result, leaving xs unchanged.
-     * @param makeCopy if set to true, we make a copy first and sort that.
+     * @param xs       huskySort.sort the array xs, returning the sorted result, leaving xs unchanged.
+     * @param makeCopy if set to true, we make a copy first and huskySort.sort that.
      */
     default X[] sort(X[] xs, boolean makeCopy) {
         init(xs.length);

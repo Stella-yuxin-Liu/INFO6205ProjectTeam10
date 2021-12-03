@@ -3,12 +3,12 @@ package edu.neu.coe.info6205.sort.counting;
 
 /**
  * <h1>Radix Sort</h1>
- * Radix sort is an integer sorting algorithm that sorts data with integer keys
+ * Radix huskySort.sort is an integer sorting algorithm that sorts data with integer keys
  * by grouping the keys by individual digits that share the same significant
- * position and value (place value). Radix sort uses counting sort as a
- * subroutine to sort an array of numbers.
+ * position and value (place value). Radix huskySort.sort uses counting huskySort.sort as a
+ * subroutine to huskySort.sort an array of numbers.
  * <p>
- * <b>Disclaimer:</b> This radix sort can only sort positive integers
+ * <b>Disclaimer:</b> This radix huskySort.sort can only huskySort.sort positive integers
  *
  * @version 1.0
  * @since 13th May 2020
@@ -33,11 +33,11 @@ public class RadixSort {
     }
 
     /**
-     * countSort method is implementation of basic counting sort algorithm.
-     * We provide exponent i.e unit's digit, ten's digit or hundred's digit etc on which counting sort needs to be performed
+     * countSort method is implementation of basic counting huskySort.sort algorithm.
+     * We provide exponent i.e unit's digit, ten's digit or hundred's digit etc on which counting huskySort.sort needs to be performed
      *
-     * @param numArr It contains an array of numbers on which counting sort needs to be performed
-     * @param exp    This is the exponent input on which counting sort would be performed e.g 1, 10, 100, 1000 etc.
+     * @param numArr It contains an array of numbers on which counting huskySort.sort needs to be performed
+     * @param exp    This is the exponent input on which counting huskySort.sort would be performed e.g 1, 10, 100, 1000 etc.
      * @param from   This is the starting index from which sorting operation will begin
      * @param to     This is the ending index until which sorting operation will be continued
      */
@@ -65,9 +65,9 @@ public class RadixSort {
     }
 
     /**
-     * sort method is implementation of radix sort algorithm.
+     * huskySort.sort method is implementation of radix huskySort.sort algorithm.
      *
-     * @param numArr It contains an array of numbers on which radix sort needs to be performed
+     * @param numArr It contains an array of numbers on which radix huskySort.sort needs to be performed
      * @param from   This is the starting index from which sorting operation will begin
      * @param to     This is the ending index until which sorting operation will be continued
      */
@@ -87,7 +87,7 @@ public class RadixSort {
 
         // Finding max number
         int maxVal = findMaxInt(numArr, from, to);
-        //Performing counting sort on every exponent
+        //Performing counting huskySort.sort on every exponent
         int exp = 1;
         while (maxVal / exp > 0) {
             countSort(numArr, exp, from, to);

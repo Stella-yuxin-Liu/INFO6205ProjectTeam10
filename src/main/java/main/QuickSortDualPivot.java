@@ -43,6 +43,6 @@ public class QuickSortDualPivot {
 		a[j] = swap;
 	}
 
-	// Read strings from standard input, sort them, and print.
+	// Read strings from standard input, huskySort.sort them, and print.
 
 }

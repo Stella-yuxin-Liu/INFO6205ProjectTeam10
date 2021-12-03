@@ -21,7 +21,7 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
     /**
      * Constructor for ShellSort
      *
-     * @param N      the number elements we expect to sort.
+     * @param N      the number elements we expect to huskySort.sort.
      * @param config the configuration.
      */
     public ShellSort(int m, int N, Config config) {
@@ -41,7 +41,7 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
      * Constructor for ShellSort
      *
      * @param m      the "gap" (h) sequence to follow:
-     *               1: ordinary insertion sort;
+     *               1: ordinary insertion huskySort.sort;
      *               2: use powers of two less one;
      *               3: use the sequence based on 3 (the one in the book): 1, 4, 13, etc.
      *               4: Sedgewick's sequence (not implemented).
@@ -56,7 +56,7 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
      * Constructor for ShellSort
      *
      * @param m the "gap" (h) sequence to follow:
-     *          1: ordinary insertion sort;
+     *          1: ordinary insertion huskySort.sort;
      *          2: use powers of two less one;
      *          3: use the sequence based on 3 (the one in the book): 1, 4, 13, etc.
      *          4: Sedgewick's sequence.
@@ -66,7 +66,7 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
     }
 
     /**
-     * Method to sort a sub-array of an array of Xs.
+     * Method to huskySort.sort a sub-array of an array of Xs.
      * <p>
      * TODO check that the treatment of from and to is correct. It seems to be according to the unit tests.
      *
@@ -95,12 +95,12 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
         this.shellFunction = shellFunction;
     }
 
-    public static final String DESCRIPTION = "Shell sort";
+    public static final String DESCRIPTION = "Shell huskySort.sort";
 
     /**
-     * Private method to h-sort an array.
+     * Private method to h-huskySort.sort an array.
      *
-     * @param h    the stride (gap) of the h-sort.
+     * @param h    the stride (gap) of the h-huskySort.sort.
      * @param xs   the array to be sorted.
      * @param from the first index to be considered in array xs.
      * @param to   one plus the last index to be considered in array xs.

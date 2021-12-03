@@ -33,10 +33,10 @@ public class LSDStringSort {
     }
 
     /**
-     * charSort method is implementation of LSD sort algorithm at particular character.
+     * charSort method is implementation of LSD huskySort.sort algorithm at particular character.
      *
-     * @param strArr       It contains an array of String on which LSD char sort needs to be performed
-     * @param charPosition This is the character position on which sort would be performed
+     * @param strArr       It contains an array of String on which LSD char huskySort.sort needs to be performed
+     * @param charPosition This is the character position on which huskySort.sort would be performed
      * @param from         This is the starting index from which sorting operation will begin
      * @param to           This is the ending index up until which sorting operation will be continued
      */
@@ -64,9 +64,9 @@ public class LSDStringSort {
     }
 
     /**
-     * sort method is implementation of LSD String sort algorithm.
+     * huskySort.sort method is implementation of LSD String huskySort.sort algorithm.
      *
-     * @param strArr It contains an array of String on which LSD sort needs to be performed
+     * @param strArr It contains an array of String on which LSD huskySort.sort needs to be performed
      * @param from   This is the starting index from which sorting operation will begin
      * @param to     This is the ending index up until which sorting operation will be continued
      */
@@ -77,9 +77,9 @@ public class LSDStringSort {
     }
 
     /**
-     * sort method is implementation of LSD String sort algorithm.
+     * huskySort.sort method is implementation of LSD String huskySort.sort algorithm.
      *
-     * @param strArr It contains an array of String on which LSD sort needs to be performed
+     * @param strArr It contains an array of String on which LSD huskySort.sort needs to be performed
      */
     public void sort(String[] strArr) {
         sort(strArr, 0, strArr.length - 1);

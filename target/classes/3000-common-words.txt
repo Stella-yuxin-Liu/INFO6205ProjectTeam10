@@ -2482,7 +2482,7 @@ song
 soon
 sophisticated
 sorry
-sort
+huskySort.sort
 soul
 sound
 soup

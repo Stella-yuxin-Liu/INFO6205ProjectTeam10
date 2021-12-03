@@ -256,7 +256,7 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
     }
 
     /***************************************************************************
-     * General helper functions.
+     * General helper huskySort.functions.
      ***************************************************************************/
     private boolean greater(int i, int j) {
         return keys[pq[i]].compareTo(keys[pq[j]]) > 0;
@@ -272,7 +272,7 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
 
 
     /***************************************************************************
-     * Heap helper functions.
+     * Heap helper huskySort.functions.
      ***************************************************************************/
     private void swim(int k) {
         while (k > 1 && greater(k/2, k)) {

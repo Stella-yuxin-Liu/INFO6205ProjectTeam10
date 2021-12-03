@@ -3,7 +3,7 @@ package edu.neu.coe.info6205.sort.elementary;
 import java.util.Arrays;
 
 /**
- * This is a basic implementation of insertion sort.
+ * This is a basic implementation of insertion huskySort.sort.
  * It does not extend Sort, nor does it employ any optimizations.
  */
 public class InsertionSortBasic {

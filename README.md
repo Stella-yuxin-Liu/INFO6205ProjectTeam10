@@ -1,9 +1,9 @@
 # INFO6205 Project Team10
 
-Implement MSD radix sort for a natural language which uses Unicode characters. 
+Implement MSD radix huskySort.sort for a natural language which uses Unicode characters. 
 You may choose your own language or (Simplified) Chinese. Additionally, you will complete a 
 literature survey of relevant papers and you will compare your method with Timsort, Dual-pivot 
-Quicksort, Huskysort, and LSD radix sort. 
+Quicksort, Huskysort, and LSD radix huskySort.sort. 
 
 
 ## Coder

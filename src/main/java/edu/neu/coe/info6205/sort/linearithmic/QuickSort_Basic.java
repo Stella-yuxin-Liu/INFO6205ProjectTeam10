@@ -28,7 +28,7 @@ public class QuickSort_Basic<X extends Comparable<X>> extends QuickSort<X> {
     /**
      * Constructor for QuickSort_Basic
      *
-     * @param N      the number elements we expect to sort.
+     * @param N      the number elements we expect to huskySort.sort.
      * @param config the configuration.
      */
     public QuickSort_Basic(int N, Config config) {

@@ -165,7 +165,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
 
     /***************************************************************************
-     * Helper functions to restore the heap invariant.
+     * Helper huskySort.functions to restore the heap invariant.
      ***************************************************************************/
 
     private void swim(int k) {
@@ -186,7 +186,7 @@ public class MinPQ<Key> implements Iterable<Key> {
     }
 
     /***************************************************************************
-     * Helper functions for compares and swaps.
+     * Helper huskySort.functions for compares and swaps.
      ***************************************************************************/
     private boolean greater(int i, int j) {
         if (comparator == null) {

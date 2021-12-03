@@ -1247,7 +1247,7 @@
 1265	loss	188
 1266	reported	188
 1267	rooms	188
-1268	sort	188
+1268	huskySort.sort	188
 1269	16	187
 1270	Well	187
 1271	applied	187
@@ -1503,7 +1503,7 @@
 1521	alone	153
 1522	becomes	153
 1523	corner	153
-1524	functions	153
+1524	huskySort.functions	153
 1525	selected	153
 1526	Institute	152
 1527	Richard	152
@@ -94139,7 +94139,7 @@
 94157	function/use	1
 94158	functionary	1
 94159	functioned	1
-94160	functions.It	1
+94160	huskySort.functions.It	1
 94161	functorial	1
 94162	funding/support	1
 94163	funhouse	1
@@ -96697,7 +96697,7 @@
 96715	jaunts	1
 96716	jaunty	1
 96717	java.security	1
-96718	java.util.Map	1
+96718	java.huskySort.util.Map	1
 96719	javanensis	1
 96720	javax.servlet.ServletContext	1
 96721	jaw-dropping	1
@@ -98006,7 +98006,7 @@
 98024	maoin	1
 98025	maple	1
 98026	maples	1
-98027	mapping-functions	1
+98027	mapping-huskySort.functions	1
 98028	mapping/improvement	1
 98029	mappings	1
 98030	maquinaria	1
@@ -105162,7 +105162,7 @@
 105180	sorrowful	1
 105181	sorrowing	1
 105182	sorrows	1
-105183	sort.zip	1
+105183	huskySort.sort.zip	1
 105184	sorta	1
 105185	sorties	1
 105186	sospiro	1

@@ -68,7 +68,7 @@ public class Benchmark_Timer<T> implements Benchmark<T> {
     }
 
     /**
-     * Constructor for a Benchmark_Timer with option of specifying all three functions.
+     * Constructor for a Benchmark_Timer with option of specifying all three huskySort.functions.
      *
      * @param description the description of the benchmark.
      * @param fPre        a function of T => T.
@@ -87,7 +87,7 @@ public class Benchmark_Timer<T> implements Benchmark<T> {
     }
 
     /**
-     * Constructor for a Benchmark_Timer with option of specifying all three functions.
+     * Constructor for a Benchmark_Timer with option of specifying all three huskySort.functions.
      *
      * @param description the description of the benchmark.
      * @param fPre        a function of T => T.

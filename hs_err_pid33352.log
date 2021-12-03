@@ -352,7 +352,7 @@ Event: 1.625 Thread 0x000001e3419d5570  792       4       java.lang.String::valu
 Event: 1.625 Thread 0x000001e3419d5570 nmethod 792 0x000001e36c0c5b90 code [0x000001e36c0c5d00, 0x000001e36c0c5d98]
 Event: 1.625 Thread 0x000001e3419d5570  789       4       java.lang.Integer::numberOfLeadingZeros (79 bytes)
 Event: 1.625 Thread 0x000001e3419d5570 nmethod 789 0x000001e36c0c5e90 code [0x000001e36c0c6000, 0x000001e36c0c60b8]
-Event: 1.625 Thread 0x000001e3419d5570  774       4       java.util.Properties::getProperty (50 bytes)
+Event: 1.625 Thread 0x000001e3419d5570  774       4       java.huskySort.util.Properties::getProperty (50 bytes)
 Event: 1.633 Thread 0x000001e3419d5570 nmethod 774 0x000001e36c0c6190 code [0x000001e36c0c6340, 0x000001e36c0c6b78]
 Event: 1.633 Thread 0x000001e3419d5570  790       4       java.lang.StringBuilder::<init> (6 bytes)
 Event: 1.640 Thread 0x000001e3419d5570 nmethod 790 0x000001e36c0c7090 code [0x000001e36c0c7240, 0x000001e36c0c7c08]
@@ -440,7 +440,7 @@ Event: 0.949 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f2b43 sp=
 Event: 0.960 Thread 0x000001e35cd8f840 DEOPT PACKING pc=0x000001e364b46ed1 sp=0x000000080c1f84d0
 Event: 0.960 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f2b43 sp=0x000000080c1f7948 mode 0
 Event: 1.150 Thread 0x000001e35cd8f840 Uncommon trap: trap_request=0xffffff45 fr.pc=0x000001e36c096b20 relative=0x0000000000000300
-Event: 1.150 Thread 0x000001e35cd8f840 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000001e36c096b20 method=java.util.StringTokenizer.scanToken(I)I @ 42 c2
+Event: 1.150 Thread 0x000001e35cd8f840 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000001e36c096b20 method=java.huskySort.util.StringTokenizer.scanToken(I)I @ 42 c2
 Event: 1.150 Thread 0x000001e35cd8f840 DEOPT PACKING pc=0x000001e36c096b20 sp=0x000000080c1fd780
 Event: 1.150 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f23a3 sp=0x000000080c1fd710 mode 2
 Event: 1.235 Thread 0x000001e35cd8f840 Uncommon trap: trap_request=0xffffff45 fr.pc=0x000001e36c076f50 relative=0x0000000000000ad0
@@ -452,7 +452,7 @@ Event: 1.236 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f2b43 sp=
 Event: 1.249 Thread 0x000001e35cd8f840 DEOPT PACKING pc=0x000001e364b87fe5 sp=0x000000080c1fd4d0
 Event: 1.249 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f2b43 sp=0x000000080c1fc920 mode 0
 Event: 1.745 Thread 0x000001e35cd8f840 Uncommon trap: trap_request=0xffffffcc fr.pc=0x000001e36c0c40bc relative=0x0000000000001b3c
-Event: 1.745 Thread 0x000001e35cd8f840 Uncommon trap: reason=intrinsic_or_type_checked_inlining action=make_not_entrant pc=0x000001e36c0c40bc method=java.util.ArrayList$SubList.toArray([Ljava/lang/Object;)[Ljava/lang/Object; @ 58 c2
+Event: 1.745 Thread 0x000001e35cd8f840 Uncommon trap: reason=intrinsic_or_type_checked_inlining action=make_not_entrant pc=0x000001e36c0c40bc method=java.huskySort.util.ArrayList$SubList.toArray([Ljava/lang/Object;)[Ljava/lang/Object; @ 58 c2
 Event: 1.745 Thread 0x000001e35cd8f840 DEOPT PACKING pc=0x000001e36c0c40bc sp=0x000000080c1ff160
 Event: 1.745 Thread 0x000001e35cd8f840 DEOPT UNPACKING pc=0x000001e3645f23a3 sp=0x000000080c1ff098 mode 2
 
@@ -596,7 +596,7 @@ Dynamic libraries:
 0x00007fff828a0000 - 0x00007fff828b8000 	C:\Program Files\Java\jdk-17.0.1\bin\zip.dll
 0x00007fff8a5c0000 - 0x00007fff8a5d0000 	C:\Program Files\Java\jdk-17.0.1\bin\verify.dll
 
-dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+dbghelp: loaded successfully - version: 4.0.5 - missing huskySort.functions: none
 symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\Java\jdk-17.0.1\bin\server
 
 VM Arguments:

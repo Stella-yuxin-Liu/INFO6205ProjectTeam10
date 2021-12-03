@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import edu.neu.coe.huskySort.sort.huskySort.PureHuskySorts;
+import edu.neu.coe.huskySort.sort.huskySort.PureHuskySort;
 import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
 import edu.neu.coe.info6205.sort.counting.LSDStringSort;
 import edu.neu.coe.info6205.sort.counting.MSDStringSort;
@@ -23,7 +23,7 @@ public class MainsTest {
 	private static Config config;
 
 	public static void main(String[] args) throws BadHanyuPinyinOutputFormatCombination, IOException {
-		String[] strs = getLines("\\submitted\\INFO6205-main\\src\\main\\resources\\shuffledChinese.txt", 10);
+		String[] strs = getLines("\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt", 10);
 		String[] expected = { "曹玉德", "樊辉辉", "高民政", "洪文胜", "刘持平", "舒冬梅", "苏会敏", "许凤山", "杨腊香", "袁继鹏" };
 
 		String[] expected2 = new String[] { "曹玉德", "樊辉辉", "高民政", "顾芳芳", "洪文胜", "黄锡鸿", "刘持平", "罗庆富", "舒冬梅", "宋雪光", "苏会敏",
@@ -42,7 +42,7 @@ public class MainsTest {
 		QuickSortDualPivot qsdp = new QuickSortDualPivot();
 		LSDStringSort ls = new LSDStringSort();
 		TimSort tSort = new TimSort<>();
-		PureHuskySorts ph = new PureHuskySorts<>(HuskyCoderFactory.asciiCoder, false, false);
+		PureHuskySort ph = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
 
 
 
@@ -81,13 +81,13 @@ public class MainsTest {
 			System.out.println(t.getTime());
 		}
 
-//		ph.sort(str_tmp);
-//		ls.sort(str_tmp);
-//		ms.sort(str_tmp);
-//		qsdp.sort(str_tmp, 0, strs.length - 1);
-//		tSort.sort(str_tmp, 0, str_tmp.length);
+//		ph.huskySort.sort(str_tmp);
+//		ls.huskySort.sort(str_tmp);
+//		ms.huskySort.sort(str_tmp);
+//		qsdp.huskySort.sort(str_tmp, 0, strs.length - 1);
+//		tSort.huskySort.sort(str_tmp, 0, str_tmp.length);
 
-//		ms.sort(str_tmp);
+//		ms.huskySort.sort(str_tmp);
 //		System.out.println("MSDStringSort");
 //		for (String s : strs)
 //			System.out.println(s);

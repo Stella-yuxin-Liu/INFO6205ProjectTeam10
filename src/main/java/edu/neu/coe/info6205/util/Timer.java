@@ -31,7 +31,7 @@ public class Timer {
     }
 
     /**
-     * Run the given functions n times, once per "lap" and then return the result of calling stop().
+     * Run the given huskySort.functions n times, once per "lap" and then return the result of calling stop().
      *
      * @param n        the number of repetitions.
      * @param supplier a function which supplies a different T value for each repetition.
@@ -43,7 +43,7 @@ public class Timer {
     }
 
     /**
-     * Pause (without counting a lap); run the given functions n times while being timed, i.e. once per "lap", and finally return the result of calling meanLapTime().
+     * Pause (without counting a lap); run the given huskySort.functions n times while being timed, i.e. once per "lap", and finally return the result of calling meanLapTime().
      *
      * @param n            the number of repetitions.
      * @param supplier     a function which supplies a T value.

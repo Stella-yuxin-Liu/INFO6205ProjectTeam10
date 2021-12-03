@@ -17,13 +17,13 @@ import java.util.Arrays;
 /**
  * Bucket Sort.
  * <p>
- * CONSIDER re-implementing by doing ClassicSort first (based on buckets) then do insertion sort.
+ * CONSIDER re-implementing by doing ClassicSort first (based on buckets) then do insertion huskySort.sort.
  *
  * @param <X> the underlying type which must extend Comparable.
  */
 public class BucketSort<X extends Comparable<X>> implements Sort<X> {
 
-    public static final String DESCRIPTION = "Bucket sort";
+    public static final String DESCRIPTION = "Bucket huskySort.sort";
 
     @Override
     public void sort(X[] xs, int from, int to) {
@@ -97,7 +97,7 @@ public class BucketSort<X extends Comparable<X>> implements Sort<X> {
     private final static LazyLogger logger = new LazyLogger(BucketSort.class);
 
     /**
-     * Method to unload and sort the buckets into the array xs.
+     * Method to unload and huskySort.sort the buckets into the array xs.
      *
      * @param buckets an array of Bag of X elements.
      * @param xs      an array of X elements to be filled.

@@ -24,7 +24,7 @@ public class InsertionSort<X extends Comparable<X>> extends SortWithHelper<X> {
     /**
      * Constructor for InsertionSort
      *
-     * @param N      the number elements we expect to sort.
+     * @param N      the number elements we expect to huskySort.sort.
      * @param config the configuration.
      */
     public InsertionSort(int N, Config config) {
@@ -49,11 +49,11 @@ public class InsertionSort<X extends Comparable<X>> extends SortWithHelper<X> {
     }
 
     /**
-     * Sort the sub-array xs:from:to using insertion sort.
+     * Sort the sub-array xs:from:to using insertion huskySort.sort.
      *
-     * @param xs   sort the array xs from "from" to "to".
-     * @param from the index of the first element to sort
-     * @param to   the index of the first element not to sort
+     * @param xs   huskySort.sort the array xs from "from" to "to".
+     * @param from the index of the first element to huskySort.sort
+     * @param to   the index of the first element not to huskySort.sort
      */
     public void sort(X[] xs, int from, int to) {
         // TO BE IMPLEMENTED
@@ -69,7 +69,7 @@ public class InsertionSort<X extends Comparable<X>> extends SortWithHelper<X> {
 
     }
 
-    public static final String DESCRIPTION = "Insertion sort";
+    public static final String DESCRIPTION = "Insertion huskySort.sort";
 
     public static <T extends Comparable<T>> void sort(T[] ts) {
         new InsertionSort<T>().mutatingSort(ts);

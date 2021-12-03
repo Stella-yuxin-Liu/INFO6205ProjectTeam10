@@ -3,7 +3,7 @@ package edu.neu.coe.info6205.sort.counting;
 import edu.neu.coe.info6205.sort.elementary.InsertionSortMSD;
 
 /**
- * Class to implement Most significant digit string sort (a radix sort).
+ * Class to implement Most significant digit string huskySort.sort (a radix huskySort.sort).
  */
 public class MSDStringSort {
 
@@ -42,7 +42,7 @@ public class MSDStringSort {
             // Copy back.
             if (hi - lo >= 0)
                 System.arraycopy(aux, 0, a, lo, hi - lo);
-            // Recursively sort for each character value.
+            // Recursively huskySort.sort for each character value.
             // TO BE IMPLEMENTED
         }
     }

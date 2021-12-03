@@ -28,7 +28,7 @@ class Matrix {
 
     /**
      * Constructor designed for creating a blank Matrix.
-     * NOTE: the count and bits functions must be consistent.
+     * NOTE: the count and bits huskySort.functions must be consistent.
      *
      * @param width         the width.
      * @param height        the height.

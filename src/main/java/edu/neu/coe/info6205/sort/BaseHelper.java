@@ -83,7 +83,7 @@ public class BaseHelper<X extends Comparable<X>> implements Helper<X> {
      * Method to perform a stable swap using half-exchanges,
      * i.e. between xs[i] and xs[j] such that xs[j] is moved to index i,
      * and xs[i] thru xs[j-1] are all moved up one.
-     * This type of swap is used by insertion sort.
+     * This type of swap is used by insertion huskySort.sort.
      *
      * @param xs the array of Xs.
      * @param i  the index of the destination of xs[j].

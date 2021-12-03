@@ -116,7 +116,7 @@ public class Config {
         return getBoolean(HELPER, INSTRUMENT);
     }
 
-    // CONSIDER: sort these out.
+    // CONSIDER: huskySort.sort these out.
     public static final String HELPER = "helper";
     public static final String INSTRUMENT = BaseHelper.INSTRUMENT;
 
