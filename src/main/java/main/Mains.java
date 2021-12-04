@@ -22,24 +22,16 @@ public class Mains {
 	private static Config config;
 
 	public static void main(String[] args) throws BadHanyuPinyinOutputFormatCombination, IOException {
-		int times = 1;
+		int times = 5;
 		int numnbers = 1000000;
 
-		String[] strs = getLines(
-				"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
-				999998);
+
 		//only double when we need input larger than 1M
-		//strs = doubleArray(strs);
-		//strs = doubleArray(strs);
 
-		String[] expected = { "曹玉德", "樊辉辉", "高民政", "洪文胜", "刘持平", "舒冬梅", "苏会敏", "许凤山", "杨腊香", "袁继鹏" };
-
-		String[] expected2 = new String[] { "曹玉德", "樊辉辉", "高民政", "顾芳芳", "洪文胜", "黄锡鸿", "刘持平", "罗庆富", "舒冬梅", "宋雪光", "苏会敏",
-				"王广风", "许凤山", "杨腊香", "袁继鹏", "张安", "张三", "张四" };
 
 		String[] type = { "MSDStringSort", "QuickSortDualPivot", "LSDStringSort", "TimSort", "PureHuskySorts" };
 
-		int len = 16;
+
 		Timer[] timer = new Timer[5];
 		timer[0] = new Timer(times);
 		timer[1] = new Timer(times);
@@ -48,38 +40,63 @@ public class Mains {
 		timer[3] = new Timer(times);
 		timer[4] = new Timer(times);
 
-		//MSDStringSort ms = new MSDStringSort();
-		QuickSortDualPivot qsdp = new QuickSortDualPivot();
-		LSDStringSort ls = new LSDStringSort();
-		TimSort tSort = new TimSort<>();
-		PureHuskySort ph = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
-		MSD msd = new MSD();
-		String[] str3 = convertToPinyin(strs);
+
 		for (int i = 0; i < times; i++) {
 
-			String[] str_tmp_msd = str3.clone();
-			String[] str_tmp_qsdp = str3.clone();
-			String[] str_tmp_lsd = str3.clone();
-			String[] str_tmp_ts = str3.clone();
-			String[] str_tmp_phs = str3.clone();
-
 			timer[0].startCounting();
+			String[] strMSD = getLines(
+					"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
+					999998);
+			//add to 2M
+			//strMSD = doubleArray(strMSD);
+			//add to 4M
+			//strMSD = doubleArray(strMSD);
+			MSD msd = new MSD();
+			String[] str_tmp_msd = convertToPinyin(strMSD);
 			msd.MSD_sort(str_tmp_msd);
 			timer[0].endCounting();
 //
 			timer[1].startCounting();
-			qsdp.sort(str_tmp_qsdp, 0, strs.length - 1);
+			String[] strsQS = getLines(
+					"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
+					999998);
+			//strsQS = doubleArray(strsQS);
+			//strsQS = doubleArray(strsQS);
+			QuickSortDualPivot qsdp = new QuickSortDualPivot();
+			String[] str_tmp_qsdp = convertToPinyin(strsQS);
+			qsdp.sort(str_tmp_qsdp, 0, strsQS.length - 1);
 			timer[1].endCounting();
 //
 			timer[2].startCounting();
+			String[] strsLSD = getLines(
+					"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
+					999998);
+			//strsLSD = doubleArray(strsLSD);
+			//strsLSD = doubleArray(strsLSD);
+			LSDStringSort ls = new LSDStringSort();
+			String[] str_tmp_lsd = convertToPinyin(strsLSD);
 			ls.sort(str_tmp_lsd);
 			timer[2].endCounting();
 //
 			timer[3].startCounting();
+			String[] strsTS = getLines(
+					"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
+					999998);
+			//strsTS = doubleArray(strsTS);
+			//strsTS = doubleArray(strsTS);
+			TimSort tSort = new TimSort<>();
+			String[] str_tmp_ts = convertToPinyin(strsTS);
 			tSort.sort(str_tmp_ts, 0, str_tmp_ts.length);
 			timer[3].endCounting();
 //
 			timer[4].startCounting();
+			String[] strsPH = getLines(
+					"\\INFO6205_Final\\INFO6205ProjectTeam10\\src\\main\\resources\\shuffledChinese.txt",
+					999998);
+			//strsPH = doubleArray(strsPH);
+			//strsPH = doubleArray(strsPH);
+			PureHuskySort ph = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+			String[] str_tmp_phs = convertToPinyin(strsPH);
 			ph.sort(str_tmp_phs);
 			timer[4].endCounting();
 			//print output
