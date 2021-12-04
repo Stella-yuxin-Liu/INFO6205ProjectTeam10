@@ -67,5 +67,12 @@
             <version>2.5.1</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/junit-jupiter-api-5.7.0.jar</systemPath>
+        </dependency>
     </dependencies>
 </project>
