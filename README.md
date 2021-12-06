@@ -39,7 +39,10 @@ git clone git@github.com:Stella-yuxin-Liu/INFO6205ProjectTeam10.git
 
 ## New Implement
 All other new implement are in INFO6205ProjectTeam10\src\main\java\main. 
+
 1.Timer
+
 2.MSD radix sort
+
 3.DualPivot QuickSort
 
