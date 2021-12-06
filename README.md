@@ -52,3 +52,5 @@ All other new implement are in INFO6205ProjectTeam10\src\main\java\main.
 
 3.DualPivot QuickSort
 
+4.Pinyin Convert
+
