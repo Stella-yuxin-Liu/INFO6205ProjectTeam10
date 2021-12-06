@@ -19,6 +19,12 @@ Yuan Lian
 
 It is in /report.
 
+## Paper
+
+It is in /paper. The paper is Paper_INFO6205. Both for doc and pdf format.
+
+Others are references.
+
 
 ## Download to local files
 
